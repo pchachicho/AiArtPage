@@ -1,0 +1,38 @@
+.footer {
+    color: white;
+    background: black;
+    position: bottom fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  .footer-list-unstyled {
+    list-style: none;
+    font-size: 17px;
+  }
+  
+  .footer-col-left{
+    text-align: center;
+  
+  }
+  
+  .footer-col-right{
+    text-align: center;
+  }
+  
+  .footer-row{
+    text-align: center;
+  }
+  
+  footer h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+  }
+  
+  footer h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+  }
+  
+  footer li{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
