@@ -4,6 +4,8 @@
     position: bottom fixed;
     bottom: 0;
     width: 100%;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
   }
   .footer-list-unstyled {
     list-style: none;
