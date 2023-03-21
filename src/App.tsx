@@ -9,10 +9,10 @@ function App() {
       <Router>
         {/* <NavBar /> */}
         <Routes>
-          <Route  path="/" element={""} />
-          <Route  path="/login" element={<Login />} />
-          <Route  path="/explore" element={<Explore />} />
-          <Route  path="/contact" element={<Contact />} />
+          <Route path="/" element={""} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/explore" element={<Explore />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
       </Router>
     </div>
