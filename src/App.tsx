@@ -1,19 +1,19 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import './App.css'
-
+import Contact from "./components/Contact/Contact";
+import Explore from "./components/Explore/Explore";
+import Login from "./components/Login/Login";
 function App() {
   return (
     <div>
       <Router>
         {/* <NavBar /> */}
         <Routes>
-          {/* <Route exact path="/about" element={""} />
-          <Route exact path="/login" element={""} />
-          <Route exact path="/stocks" element={""} />
-          <Route exact path="/account" element={""} />
-          <Route exact path="/" element={""} /> */}
+          <Route  path="/" element={""} />
+          <Route  path="/login" element={<Login />} />
+          <Route  path="/explore" element={<Explore />} />
+          <Route  path="/contact" element={<Contact />} />
         </Routes>
-        {/* <Footer /> */}
       </Router>
     </div>
   );
